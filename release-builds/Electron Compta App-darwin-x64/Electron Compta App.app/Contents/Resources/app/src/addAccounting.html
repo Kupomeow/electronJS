@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <script>let $ = require('jquery');</script>
+    <script>require('bootstrap');</script>
+    <title>Ajout recette/depense</title>
+</head>
+<body>
+<div class="container text-center">
+    <h2>--| Ajouter une recette/dépense |--</h2>
+</div>
+
+<div class="container align-items-center mt-5">
+    <form id="addAccounting" class="centered">
+
+        <div class="form-row">
+
+            <div class="form-group col-md-4">
+                <input type="date" class="form-control" name="date" id="date" placeholder="Date">
+            </div>
+
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="title" id="title" placeholder="Intitulé">
+            </div>
+        </div>
+        <div class="form-row">
+
+            <div class="form-group col-md-4">
+                <input type="number" class="form-control" name="value" id="value" placeholder="Valeur">
+            </div>
+
+        </div>
+        <button type="submit" class="btn btn-primary">Ajouter la recette</button>
+
+    </form>
+</div>
+</div>
+</body>
+<script src="addAccounting.js"></script>
+</html>

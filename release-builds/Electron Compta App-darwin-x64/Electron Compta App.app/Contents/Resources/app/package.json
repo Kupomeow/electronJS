@@ -1,0 +1,23 @@
+{
+  "name": "alban",
+  "productName": "Electron Compta App",
+  "version": "1.0.0",
+  "description": "Examen electron JS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "alban",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "electron-store": "^2.0.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.3.1",
+    "objects-to-csv": "^1.2.1"
+  },
+  "devDependencies": {
+    "electron": "^4.2.1",
+    "electron-packager": "^13.1.1"
+  }
+}
