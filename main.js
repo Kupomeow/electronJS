@@ -95,7 +95,7 @@ const template = [
                     const ObjectsToCsv = require('objects-to-csv');
                     // Save to file:
                     let csv = new ObjectsToCsv(accountingArray);
-                    csv.toDisk('./accounting.csv', {append: true});
+                    csv.toDisk('./livre des dépenses et recettes.csv', {append: true});
                 }
 
 
@@ -110,7 +110,7 @@ const template = [
                     const ObjectsToCsv = require('objects-to-csv');
                     // Save to file:
                      let csv = new ObjectsToCsv(depenseArray);
-                    csv.toDisk('./depense.csv', {append: true});
+                    csv.toDisk('./livre des dépenses.csv', {append: true});
                 }
 
 
@@ -126,7 +126,7 @@ const template = [
                     // Save to file:
                     let csv = new ObjectsToCsv(recetteArray);
                     console.log(recetteArray);
-                     csv.toDisk('./recette.csv', {append: true});
+                     csv.toDisk('./livre des recettes.csv', {append: true});
                 }
             }
         ]
